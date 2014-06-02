@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+    <name>Netzarbeiter_LoginCatalog</name>
+    <version>1.2.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This small extension requires a customer to be logged in order to view products or product collections.&#xD;
+If the customer navigates to a page that contains a product or a product collection, she will be&#xD;
+redirected to the account login page.</summary>
+    <description>This small extension requires a customer to be logged in order to view products or product collections.&#xD;
+If the customer navigates to a page that contains a product or a product collection, she will be&#xD;
+redirected to the account login page.&#xD;
+&#xD;
+This Module was designed to work with the Module Netzarbeiter_CustomerActivation, which&#xD;
+only allows customers to log in after they have been activated in the adminhtml interface.&#xD;
+There also is the Netzarbeiter_GroupsCatalog extension which allows you to hide Categories&#xD;
+and/or groups depending on the customers groups. Installing this extension together with&#xD;
+the Customer Groups Catalog Extension will probably make no sense, so you have to decide&#xD;
+what suits your needs better.</description>
+    <notes>Add Feature (configurable): do redirect on category pages, too.</notes>
+    <authors><author><name>Vinai Kopp</name><user>auto-converted</user><email>vinai@netzarbeiter.com</email></author></authors>
+    <date>2013-11-13</date>
+    <time>13:33:48</time>
+    <contents><target name="magecommunity"><dir name="Netzarbeiter"><dir name="LoginCatalog"><dir name="Block"><file name="Navigation.php" hash="72305e992c71617d9e5903fda9ecfb2a"/></dir><dir name="Helper"><file name="Data.php" hash="89ef8f90a5a631bc66a3b35aba00558f"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="RedirectType.php" hash="962087fd0bf634049873d279a9bf9a20"/></dir></dir></dir><file name="Observer.php" hash="bbd4f0f70805de13efccfd3b4112dd5b"/></dir><dir name="Test"><dir name="Model"><dir name="expectations"><file name="redirectOnProductLoad.yaml" hash="807a10b94a9c95faf034c00f7ea250ba"/></dir><dir name="fixtures"><file name="observer.yaml" hash="0c34884e1184a8fffb32b4f761e46080"/></dir><dir name="providers"><file name="redirectOnProductLoad.yaml" hash="ac3d86ade642d39d2730d4be2d837ab9"/></dir><file name="ObserverTest.php" hash="ee9a9b671d583c8bca3245a13d16297b"/></dir></dir><dir name="etc"><file name="config.xml" hash="66d89abe8a5f9a4c96f9c7c3702d1506"/><file name="system.xml" hash="509328bbac82369512236093b82bf514"/></dir><file name="README.md" hash="b6170f144a3a3e85acf77a30b32ac39e"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Netzarbeiter_LoginCatalog.xml" hash="aeaec98c953bf2ba3a9d7360c9b1a0d4"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Netzarbeiter_LoginCatalog.csv" hash="784fe584699af6969a5ac398947f24cb"/></dir><dir name="de_DE"><file name="Netzarbeiter_LoginCatalog.csv" hash="48dbdc42a456b25ea85374d7bde9be2b"/></dir><dir name="fr_FR"><file name="Netzarbeiter_LoginCatalog.csv" hash="93af7e430425896793629843605f4ceb"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
