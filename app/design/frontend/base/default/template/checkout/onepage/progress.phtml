@@ -35,8 +35,6 @@
                 <?php echo $this->getChildHtml('billing.progress') ?>
             </div>
             <?php endif; ?>
-
-
             <?php if ($this->getCheckout()->getStepData('payment', 'is_show')): ?>
             <div id="payment-progress-opcheckout">
                 <?php echo $this->getChildHtml('payment.progress') ?>
